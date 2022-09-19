@@ -5,12 +5,19 @@ console.log(PI);
 a = "kenai";
 console.log(a);
 
-let objeto = {
+const objeto = {
     nombre:"Jon",
     edad:35
 }
 
-let colores = ["blanco","negro","azul"];
+const colores = ["blanco","negro","azul"];
 
 console.log(objeto);
-console.log(colores)
+console.log(colores);
+
+objeto.correo = "correo.com";
+colores.push("anaranjado");
+
+console.log(objeto);
+console.log(colores);
+
